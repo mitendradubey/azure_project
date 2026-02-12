@@ -1,0 +1,96 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-VBPRJ-B9-ETL-DEV"
+		},
+		"LS_AZSQL_DB_password": {
+			"value": ""
+		},
+		"LS_AZSQL_SRCDB_password": {
+			"value": ""
+		},
+		"LS_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_SNOW_SRCACCOUNT_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_SNOWFLAKE_password": {
+			"value": ""
+		},
+		"LS_SRC_SNOW_BLOB_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_SQL_password": {
+			"value": ""
+		},
+		"LS_AZSQL_DB_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev-project.database.windows.net"
+		},
+		"LS_AZSQL_DB_properties_typeProperties_database": {
+			"value": "access-data-dev"
+		},
+		"LS_AZSQL_DB_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_AZSQL_SRCDB_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev-project.database.windows.net"
+		},
+		"LS_AZSQL_SRCDB_properties_typeProperties_database": {
+			"value": "access-data-dev"
+		},
+		"LS_AZSQL_SRCDB_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevvbb9source001.dfs.core.windows.net/"
+		},
+		"LS_SINK_SNOWFLAKE_sasUri": {
+			"value": ""
+		},
+		"LS_SINK_SNOW_SRCACCOUNT_properties_typeProperties_url": {
+			"value": "https://adlsdevvbb9source001.dfs.core.windows.net/"
+		},
+		"LS_SRC_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardb9raw01.dfs.core.windows.net/"
+		},
+		"LS_SRC_REST_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/lJMqb5/restapisource"
+		},
+		"LS_SRC_SNOWFLAKE_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"LS_SRC_SNOW_BLOB_properties_typeProperties_url": {
+			"value": "https://blobstorageforsnowflak.dfs.core.windows.net/"
+		},
+		"LS_SRC_SQL_properties_typeProperties_server": {
+			"value": "LAPTOP-LREJCR2M\\SQLEXPRESS"
+		},
+		"LS_SRC_SQL_properties_typeProperties_database": {
+			"value": "visionboardproject"
+		},
+		"LS_SRC_SQL_properties_typeProperties_userName": {
+			"value": "test_user"
+		},
+		"Tr_sample_csv_properties_PL1_MASTER_parameters_Trigger": {
+			"value": "Tr_sample_csv"
+		},
+		"Tr_sample_excel_properties_PL1_MASTER_parameters_Trigger": {
+			"value": "Tr_sample_excel"
+		},
+		"Tr_sample_snowflake_properties_typeProperties_scope": {
+			"value": "/subscriptions/687655c2-42f5-4669-930a-e7fc0d8c47b2/resourceGroups/RG_VB_DEV_B9_ETL/providers/Microsoft.Storage/storageAccounts/blobstorageforsnowflak"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
