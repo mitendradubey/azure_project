@@ -1,0 +1,13 @@
+{
+	"name": "DS_SRC_REST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SRC_REST",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

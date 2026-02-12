@@ -1,0 +1,6 @@
+{
+	"name": "SQLSelfHostedIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

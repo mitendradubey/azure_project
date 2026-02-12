@@ -1,0 +1,21 @@
+{
+	"name": "DS_SRC_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SRC_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "jsontest.json",
+				"folderPath": "JSON",
+				"fileSystem": "input"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

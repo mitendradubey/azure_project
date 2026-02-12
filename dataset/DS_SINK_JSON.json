@@ -1,0 +1,24 @@
+{
+	"name": "DS_SINK_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SINK_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": {
+					"value": "@concat('JSON/', formatDateTime(utcNow(), 'yyyy/MM/dd/HHmmss'))",
+					"type": "Expression"
+				},
+				"fileSystem": "input"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

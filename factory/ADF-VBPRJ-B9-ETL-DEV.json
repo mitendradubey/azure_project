@@ -1,0 +1,9 @@
+{
+	"name": "ADF-VBPRJ-B9-ETL-DEV",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "99838fde-8425-4e51-9f11-957574c0ea20",
+		"tenantId": "ac38d0e7-1f07-4686-a019-22c8f82dba7a"
+	}
+}
